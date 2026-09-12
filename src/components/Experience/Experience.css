@@ -1,0 +1,265 @@
+/* ==========================================
+   EXPERIENCE SECTION
+========================================== */
+.experience{
+    width:100%;
+    padding:50px 8%;
+    background:#f8faff;
+}
+
+/* ==========================================
+   TITLE
+========================================== */
+.experience-title{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.experience-title span{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:30px;
+    background:#EEF2FF;
+    color:#5B5FF5;
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.experience-title h2{
+    font-size:35px;
+    font-weight:700;
+    color:#5B5FF5;
+    margin-bottom:10px;
+}
+
+.experience-title p{
+    max-width:650px;
+    margin:auto;
+    font-size:16px;
+    color:#6B7280;
+    line-height:1.7;
+}
+
+/* ==========================================
+   TWO COLUMN LAYOUT
+========================================== */
+.timeline{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:50px;
+    align-items:start;
+}
+
+/* ==========================================
+   CARD
+========================================== */
+.experience-card{
+    background:#fff;
+    border-radius:22px;
+    padding:20px;
+    box-shadow:0 12px 35px rgba(0,0,0,.07);
+    transition:.35s;
+    position:relative;
+    overflow:hidden;
+}
+
+.experience-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 50px rgba(91,95,245,.18);
+}
+
+/* animated shine */
+.experience-card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:-120%;
+    width:100%;
+    height:100%;
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.55),
+        transparent
+    );
+    transition:.8s;
+}
+
+.experience-card:hover::before{
+    left:120%;
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+.card-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:15px;
+}
+
+.card-header h3{
+    font-size:20px;
+    color:#111827;
+    margin-bottom:5px;
+}
+
+.card-header h4{
+    color:#5B5FF5;
+    font-size:15px;
+    font-weight:600;
+}
+
+.status{
+    background:#E8F5E9;
+    color:#16A34A;
+    padding:8px 14px;
+    border-radius:30px;
+    font-size:12px;
+    font-weight:600;
+
+}
+
+/* ==========================================
+   INFO
+========================================== */
+.card-info{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-bottom:10px;
+}
+
+.card-info span{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    color:#6B7280;
+    font-size:12px;
+}
+
+.card-info svg{
+    color:#5B5FF5;
+}
+
+/* ==========================================
+   DESCRIPTION
+========================================== */
+.description{
+    list-style:none;
+    padding:0;
+    margin:10px 0;
+}
+
+.description li{
+    position:relative;
+    padding-left:28px;
+    margin-bottom:8px;
+    line-height:1.8;
+    color:#4B5563;
+}
+
+.description li::before{
+    content:"✓";
+    position:absolute;
+    left:0;
+    top:0;
+    color:#5B5FF5;
+    font-weight:bold;
+    font-size:14px;
+}
+
+/* ==========================================
+   TECHNOLOGIES
+========================================== */
+.experience-card h5{
+    font-size:13px;
+    color:#374151;
+    margin-bottom:15px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.tech-stack{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.tech-stack span{
+    padding:5px 10px;
+    border-radius:30px;
+    background:#EEF2FF;
+    color:#5B5FF5;
+    font-size:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.tech-stack span:hover{
+    background:#5B5FF5;
+    color:#fff;
+    transform:translateY(-4px);
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+@media(max-width:1100px){
+.timeline{
+grid-template-columns:1fr;
+}
+}
+
+@media(max-width:768px){
+.experience{
+padding:80px 25px;
+}
+
+.experience-title h2{
+font-size:38px;
+}
+
+.card-header{
+flex-direction:column;
+gap:15px;
+}
+
+.status{
+width:fit-content;
+}
+}
+
+@media(max-width:480px){
+.experience-title h2{
+font-size:32px;
+}
+
+.experience-title p{
+font-size:16px;
+}
+
+.experience-card{
+padding:22px;
+}
+
+.card-header h3{
+font-size:20px;
+}
+
+.card-header h4{
+font-size:16px;
+}
+
+.card-info{
+flex-direction:column;
+gap:12px;
+}
+
+.tech-stack span{
+font-size:13px;
+padding:8px 14px;
+}
+}
