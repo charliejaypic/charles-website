@@ -1,13 +1,13 @@
 import "./Projects.css";
 
 import project1 from "../../assets/images/Port.png";
-import project2 from "../../assets/images/oc.png";
-import project3 from "../../assets/images/Amekek Logo.png";
+import project2 from "../../assets/images/Amekek Logo.png";
+import project3 from "../../assets/images/Pos.jpeg";
 import project4 from "../../assets/images/Black Logo.png";
 import project5 from "../../assets/images/Shanny.jpg";
 import project6 from "../../assets/images/iCard.jpg";
 import project7 from "../../assets/images/Amekek Logo.png";
-import project8 from "../../assets/images/Tekko Logo.png";
+import project8 from "../../assets/images/Ban.jpeg";
 
 import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
 
