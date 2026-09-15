@@ -6,7 +6,7 @@ import project3 from "../../assets/images/Pos.jpeg";
 import project4 from "../../assets/images/Black Logo.png";
 import project5 from "../../assets/images/Shanny.jpg";
 import project6 from "../../assets/images/iCard.jpg";
-import project7 from "../../assets/images/Amekek Logo.png";
+import project7 from "../../assets/images/Tekko Logo.png";
 import project8 from "../../assets/images/Ban.jpeg";
 
 import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
@@ -46,8 +46,8 @@ const projects = [
 
 {
   image: project3,
-  category: "LOGO DESIGN",
-  title: "Business Logo",
+  category: "DESIGN",
+  title: "Poster",
   // description:
   //   "A custom business logo created with a modern and professional visual style, focusing on simplicity, brand recognition and versatility for use across different marketing materials.",
   technologies: [
