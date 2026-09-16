@@ -9,13 +9,13 @@ import project6 from "../../assets/images/iCard.jpg";
 import project7 from "../../assets/images/Tekko Logo.png";
 import project8 from "../../assets/images/Ban.jpeg";
 
-import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
+import { FaCode, FaExternalLinkAlt, FaEye } from "react-icons/fa";
 
 const projects = [
 {
   image: project1,
-  category: "PORTFOLIO WEBSITE",
-  title: "My Portfolio",
+  title: "WEBSITE DESIGN",
+  category: "Personal ICT Portfolio Website",
   // description:
   //   "A modern and responsive personal portfolio website designed to showcase my skills, experience, projects, certifications and IT services with an engaging and professional user experience.",
   technologies: [
@@ -32,8 +32,8 @@ const projects = [
 
 {
   image: project2,
-  category: "LOGO DESIGN",
-  title: "Company Logo",
+  title: "LOGO DESIGN",
+  category: "Logo Brand",
   // description:
   //   "A professional corporate logo designed to establish a strong visual identity and create a clean, memorable and recognizable brand presence across digital and print platforms.",
   technologies: [
@@ -46,8 +46,8 @@ const projects = [
 
 {
   image: project3,
-  category: "DESIGN",
-  title: "Poster",
+  category: "Graphics Design",
+  title: "POSTER",
   // description:
   //   "A custom business logo created with a modern and professional visual style, focusing on simplicity, brand recognition and versatility for use across different marketing materials.",
   technologies: [
@@ -60,13 +60,13 @@ const projects = [
 
 {
   image: project4,
-  category: "LOGO DESIGN",
-  title: "Brand Identity Logo",
+  category: "Brand Identity",
+  title: "BUSINESS CARD",
   // description:
   //   "A creative logo design developed to give a business a distinctive visual identity, with a clean and adaptable design suitable for websites, social media, stationery and promotional materials.",
   technologies: [
-    "Photoshop",
-    "Illustrator",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
   ],
   link: "#",
 },
@@ -181,10 +181,10 @@ function Projects() {
 
               </div>
 
-              {/* <a href={project.link}>
-                <FaExternalLinkAlt />
-                Live Demo
-              </a> */}
+              <a href={project.link}>
+                <FaEye />
+                View More
+              </a>
 
             </div>
 

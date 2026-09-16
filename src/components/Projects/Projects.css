@@ -100,7 +100,7 @@
 .project-category {
   color: #6c63ff;
   font-size: 12px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: .8px;
   font-weight: 700;
 }
