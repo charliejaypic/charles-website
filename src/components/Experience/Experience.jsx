@@ -39,35 +39,35 @@ function Experience() {
       ]
     },
 
-    {
-      title: "IT Technician",
+//     {
+//       title: "IT Technician",
 
-      company: "Rangira Recovery Agent Ltd",
+//       company: "Rangira Recovery Agent Ltd",
 
-      status: "Party Time",
+//       status: "Party Time",
 
-      date: "Oct 2025 - Dec 2025",
+//       date: "Oct 2025 - Dec 2025",
 
-      location: "Kampala",
+//       location: "Kampala",
 
-      description: [
-  "Provided technical support to staff.",
-  "Assisted with day to day ICT related queries.",
-  "Installed, configured and maintained computer hardware and software.",
-  "Troubleshot hardware, software, network and internet related queries.",
-  "Assisted users with computer related queries and problems."
-],
+//       description: [
+//   "Provided technical support to staff.",
+//   "Assisted with day to day ICT related queries.",
+//   "Installed, configured and maintained computer hardware and software.",
+//   "Troubleshot hardware, software, network and internet related queries.",
+//   "Assisted users with computer related queries and problems."
+// ],
 
-      technologies: [
-        "React",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Networking",
-        "Git",
-        "Windows"
-      ]
-    },
+//       technologies: [
+//         "React",
+//         "JavaScript",
+//         "HTML",
+//         "CSS",
+//         "Networking",
+//         "Git",
+//         "Windows"
+//       ]
+//     },
 
     {
       title: "IT Graduate Trainee",
